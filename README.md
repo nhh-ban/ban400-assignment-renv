@@ -1,7 +1,7 @@
 # In-class assignment for renv-lecture
 
 
-In this assignment, your assignment is to successfully run the script `renv_test.r`. This script contains three lines, replicated below
+In this assignment, your task is to successfully run the script `renv_test.r`. This script contains three lines, replicated below
 
 ```r 
 library(dplyr)
