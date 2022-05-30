@@ -11,7 +11,7 @@ x %>% ungroup(x)
 
 The result should be `1` - not an error. 
 
-The code is inspired by an issue on dplyr, where there is a slight change in functionality. In versions *before* `dplyr 1.0.0`, the code works fine. From `1.0.0`, it will fail. See the thread here https://github.com/tidyverse/dplyr/issues/5368. Hadley Wickham argues that the code should indeed fail. 
+The code is inspired by an issue on dplyr where there is a slight change in functionality. In versions *before* `dplyr 1.0.0`, the code works fine. From `1.0.0`, it will fail. See the thread here https://github.com/tidyverse/dplyr/issues/5368. Hadley Wickham argues that the code should indeed fail. 
 
 Do the steps below: 
 
